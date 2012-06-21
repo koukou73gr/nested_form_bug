@@ -1,4 +1,4 @@
-1340306573
+1340308075
 Application	/home/kostas/source/nested_form_bug/config/application.rb	  class Application 
 ApplicationController	/home/kostas/source/nested_form_bug/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/home/kostas/source/nested_form_bug/app/helpers/application_helper.rb	module ApplicationHelper

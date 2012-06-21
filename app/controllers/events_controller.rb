@@ -26,7 +26,7 @@ class EventsController < ApplicationController
     @event = Event.new
     @event.assign_attributes(params[:event])
     if @event.save
-      redirect_to :index
+      redirect_to :action => :index
     else
       render :new
     end
