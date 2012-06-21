@@ -1,0 +1,12 @@
+= nested_form_for @event do |f|
+  %p
+    = f.label "Date"
+    = f.date_select :date
+  %p
+    = f.label "Title"
+    = f.text_field :title
+
+  .record_area
+    = f.fields_for :records
+    = f.link_to_add "New record", :records
+  = f.submit "Submit"

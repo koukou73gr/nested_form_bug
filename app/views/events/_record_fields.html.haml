@@ -1,0 +1,20 @@
+.record
+  %p= f.link_to_remove "DeleteMe"
+  %p
+    = f.label "Record Duration"
+    = f.text_field :duration
+  %p
+    = f.label "Epicentral Distance"
+    = f.text_field :epi_dist
+
+  %p
+    = f.label "Recording station"
+    = f.collection_select :station_id, Station.all, :id, :code,
+                          :include_blank => "Create new", :selected => f.object.station_id
+    \- or -
+    .station_area
+      - if f.object.station
+        = f.fields_for :station
+      = f.link_to_add "Create Station", :station
+
+  %p NB: Assume some javascript logic where the "Create Station" is normally hidden and a click event is triggered if "Create new" is selected in the drop-down above, etc etc)

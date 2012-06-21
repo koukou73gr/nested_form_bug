@@ -1,0 +1,25 @@
+= link_to "New Event", new_event_path
+%table
+  %tr
+    %th Date
+    %th Title
+    %th Records
+  - @events.each do |e|
+    %tr
+      %td
+        = e.date
+        = link_to "edit", edit_event_path(e)
+      %td= e.title
+      %td
+        %table
+          %tr
+            %th ID
+            %th Duration
+            %th Epi.Distance
+            %th Station
+          - e.records && e.records.each do |r|
+            %tr
+              %td= r.id
+              %td= r.duration
+              %td= r.epi_dist
+              %td= r.station && r.station.code

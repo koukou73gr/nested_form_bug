@@ -1,0 +1,44 @@
+--- 
+cursor_positions: 
+  - :path: db/migrate/20120621172807_create_stations.rb
+    :cursor_offset: 114
+    :timestamp: 2012-06-21 20:34:35 +03:00
+  - :path: db/migrate/20120621172754_create_records.rb
+    :cursor_offset: 229
+    :timestamp: 2012-06-21 20:34:17 +03:00
+  - :path: db/migrate/20120621172745_create_events.rb
+    :cursor_offset: 135
+    :timestamp: 2012-06-21 20:31:20 +03:00
+  - :path: config/routes.rb
+    :cursor_offset: 61
+    :timestamp: 2012-06-21 20:40:19 +03:00
+  - :path: app/assets/javascripts/application.js
+    :cursor_offset: 120
+    :timestamp: 2012-06-21 22:04:15 +03:00
+  - :path: app/models/event.rb
+    :cursor_offset: 108
+    :timestamp: 2012-06-21 22:13:30 +03:00
+  - :path: app/models/station.rb
+    :cursor_offset: 92
+    :timestamp: 2012-06-21 22:14:01 +03:00
+  - :path: app/views/events/new.html.haml
+    :cursor_offset: 43
+    :timestamp: 2012-06-21 21:41:37 +03:00
+    :selection_offset: 0
+    :block_selection_mode: false
+  - :path: app/models/record.rb
+    :cursor_offset: 106
+    :timestamp: 2012-06-21 22:14:27 +03:00
+  - :path: app/assets/stylesheets/events.css.scss
+    :cursor_offset: 176
+    :timestamp: 2012-06-21 22:18:02 +03:00
+  - :path: app/views/events/_station_fields.html.haml
+    :cursor_offset: 41
+    :timestamp: 2012-06-21 22:09:53 +03:00
+  - :path: app/views/events/_record_fields.html.haml
+    :cursor_offset: 12
+    :timestamp: 2012-06-21 22:09:39 +03:00
+  - :path: app/views/events/edit.html.haml
+    :cursor_offset: 34
+    :timestamp: 2012-06-21 22:20:52 +03:00
+files_to_retain: 0
